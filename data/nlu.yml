@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -8,10 +7,10 @@ nlu:
     - Olá
     - Bom dia
     - Oii
-    - Boa tarde    
+    - Boa tarde
     - boa tarde
-    - Boa noite    
-
+    - Boa noite
+    - oi
 - intent: goodbye
   examples: |
     - Tchau
@@ -19,8 +18,7 @@ nlu:
     - até mais
     - tenha um otimo dia
     - Adeus
-    - bye    
-
+    - bye
 - intent: affirm
   examples: |
     - Sim
@@ -29,7 +27,6 @@ nlu:
     - claro
     - parece bom
     - correto
-
 - intent: deny
   examples: |
     - não
@@ -38,7 +35,6 @@ nlu:
     - Eu acho que não
     - não gostei
     - nao gostei
-
 - intent: mood_great
   examples: |
     - perfeito
@@ -51,8 +47,7 @@ nlu:
     - Estou bem
     - Otimo
     - Animado
-    - extremamente bem    
-
+    - extremamente bem
 - intent: mood_unhappy
   examples: |
     - meu dia está mal
@@ -66,8 +61,7 @@ nlu:
     - infeliz
     - nada bem
     - não muito bem
-    - extremamente triste    
-
+    - extremamente triste
 - intent: bot_challenge
   examples: |
     - Você é um robô?
